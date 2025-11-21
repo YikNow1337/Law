@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
 }
 section{
     background-position: center;
@@ -110,6 +111,46 @@ section{
     font-size: 80px;
     text-shadow: 5px 5px 0 #000000;
 }
+.about-content{
+    width: 35%;
+    height:270px;
+    border-radius: 0px 0px 0px 20px;
+    background: #792AFF;
+    padding-left: 40px;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+}
+.about-title{
+    color: #fff;
+    font-size: 20px;
+    max-width: 463px;
+    margin-bottom: 20px;
+    font-family: "Comfortaa";
+}
+.about-card{
+    background-image: url(img/form2.png);
+    background-repeat: no-repeat;
+    width: 376px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+.about-card p{
+    color: #000;
+    font-size: 17px;
+    align-self: start;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: "Comfortaa";
+}
+.about-card img{
+    padding-bottom: 20px;
+}
 .moving-cloud{
     background: url(img/cloud.png);
     background-repeat: no-repeat;
@@ -203,4 +244,70 @@ section{
     font-size: 20px;
     font-family: "Comfortaa";
     max-width: 250px;
+}
+footer{
+    background-color: #200153;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-info p{
+    font-family: "Comfortaa";
+    padding-bottom: 10px;
+}
+
+.footer-year p{
+    font-family: "Comfortaa";
+    letter-spacing: 1.5px;
+}
+.footer-links a{
+    margin-right: 15px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.fixed-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding-right: 150px;
+}
+.nav-link{
+    width: 112px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: "Comfortaa";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    transition-duration: 1s;
+}
+.nav-link:hover{
+    background-color: #BBFF2c;
+}
+.logo{
+    color: #BBFF2c;
+    font-size: 80px;
+    padding-left: 50px;
+}
+.active{
+    background-color: #BBFF2c;
 }
