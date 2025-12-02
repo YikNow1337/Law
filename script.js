@@ -34,3 +34,6 @@ if (!newActiveBtn.classList.contains("active")){
     newActiveBtn.classList.add("active");
     activeBtn.classList.remove("active");
 };
+document.querySelector(".mobile-button").addEventListener("click", function (event){
+    document.querySelector(".mobile-menu").classList.toggle("hide");
+});
