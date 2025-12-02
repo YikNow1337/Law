@@ -460,6 +460,8 @@ nav{
     .footer-info{
         text-align: center;
     }
-
+    .off-scroll{
+        overflow: hidden;
+    }
 
 }
